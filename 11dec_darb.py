@@ -4,7 +4,7 @@ from tkinter import messagebox
 def paradi_sveik():
     vards=ievades_luki.get()
     krasa=ievades_luki2.get()
-    messagebox.showinfo("**Sveiciens**", f"Labdien, {vards} ! Mēs tevi izsekoju un zinu kad tev patīk {krasa} krāsa.")
+    messagebox.showinfo("**Sveiciens**", f"Labdien, {vards} ! Mēs tevi izsekoju un zinam kad tev patīk {krasa} krāsa.")
 
 #galvenais logs
 logs=tk.Tk()
